@@ -117,8 +117,15 @@ line-height: 167% ;
 
 /**** buttons style ****/
 .btn{
+    &-primary{
+        background: #2B7DDD;
+        border-color: #2B7DDD;
+        color:#fff !important;
+    }
     &-warning{
-        background: $yellow;font-weight: 600;color:$black
+        background: $yellow;
+        font-weight: 600;
+        color:$black
     }
     &-white{
         background: #FFFFFF;

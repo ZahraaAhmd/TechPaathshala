@@ -126,6 +126,11 @@ h3 {
 }
 
 /**** buttons style ****/
+.btn-primary {
+  background: #2B7DDD;
+  border-color: #2B7DDD;
+  color: #fff !important;
+}
 .btn-warning {
   background: #EEBC00;
   font-weight: 600;
@@ -532,6 +537,23 @@ h3 {
 }
 .mentor-box .box-content .tech-icons img {
   margin-right: 16px;
+}
+
+/*** form style ****/
+form .form-control {
+  padding: 11px 22px;
+  border: 1px solid #B8B6B6;
+  border-radius: 5px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+form .form-control:focus {
+  border-color: #044ab4;
+}
+form .btn {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 /*** header style ****/
@@ -1025,6 +1047,41 @@ h3 {
 .TP-fonder-story {
   padding-top: 86px;
   padding-bottom: 86px;
+}
+
+/**** course page styles *****/
+.TP-hero .course-form {
+  width: 100%;
+  max-width: 451px;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.05), 0px 1.6711px 33.4221px rgba(0, 0, 0, 0.0359427), 0px 0.893452px 17.869px rgba(0, 0, 0, 0.0298054), 0px 0.500862px 10.0172px rgba(0, 0, 0, 0.025), 0px 0.266004px 5.32008px rgba(0, 0, 0, 0.0201946), 0px 0.11069px 2.21381px rgba(0, 0, 0, 0.0140573);
+  border-radius: 10px;
+  padding: 32px 54px;
+  margin-bottom: -32%;
+}
+.TP-hero .course-form .form-label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 172%;
+  margin-bottom: 9px;
+}
+.TP-hero .course-form .form-control {
+  font-size: 15px;
+  height: 53px;
+}
+.TP-hero .course-form textarea.form-control {
+  height: 136px;
+}
+.TP-hero .course-form .btn {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+.TP-contact-info {
+  padding-top: 86px;
+  padding-bottom: 68px;
 }
 
 /*** footer style ****/
