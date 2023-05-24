@@ -1,0 +1,27 @@
+/*** header style ****/
+.navbar{
+    padding:14.5px 0;
+    .navbar-nav{
+        .nav-link{
+            padding:0 20px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height:150% ;
+            color: #FFFFFF;
+            &:hover{
+                color:$yellow
+            }
+            &.btn-outline{
+                padding:16px 32px;
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                line-height:120%;
+                &:hover{
+                    color:$black;
+                    background: $yellow;
+                    border-color: $yellow;
+                }
+            }
+        }
+    }
+}

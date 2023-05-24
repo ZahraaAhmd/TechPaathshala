@@ -1,0 +1,38 @@
+/*** footer style ****/
+footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    font-size: 14px;
+line-height:  186%;
+    .footer-logo{
+        display: block;
+        margin-bottom: 36px;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 128% ;margin-bottom: 20px;
+    }
+    
+    .social-links{
+        a{
+            color:$primary;
+            margin-right: 28px;
+            i{
+                font-size: 24px;
+            }
+            &:hover{
+                color:$yellow
+            }
+        }
+    }
+}
+.copyRights{
+    padding:24px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+}
