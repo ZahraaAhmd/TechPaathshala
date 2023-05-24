@@ -1,140 +1,185 @@
 /*** general pages settings ***/
-body{
+body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color:$black;
+    color: $black;
     font-weight: 400;
     font-size: 19px;
     line-height: 158%;
-    }
+}
 
-.container{
-    width:100%;
-    max-width:1230px;
+.container {
+    width: 100%;
+    max-width: 1230px;
     padding-right: 15px;
     padding-left: 15px;
 }
-.slider-container{
+
+.slider-container {
     padding-right: 15px;
     padding-left: 15px;
 }
+
 /*** texts style ****/
-a{
+a {
     transition: all 0.3s ease-in-out;
 }
-h1,h2{
-    .Satisfy-font{
+
+h1,
+h2 {
+    .Satisfy-font {
         position: relative;
-               display:inline-block;
-               line-height: 1;
-               padding: 0 5px ;
-               &::after{
-                content: "";
-                display: block;
-                height: 10px;
-                width: 100%;
-                position: absolute;
-                left: -5px;
-                bottom: 0;
-                background: url("../images/home/line-bg.svg");
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: left 0 center;
-               }
+        display: inline-block;
+        line-height: 1;
+        padding: 0 5px;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 10px;
+            width: 100%;
+            position: absolute;
+            left: -5px;
+            bottom: 0;
+            background: url("../images/home/line-bg.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left 0 center;
+        }
     }
 }
-h1{
+
+h1 {
     font-weight: 600;
     font-size: 52px;
     line-height: 128%;
-    span{
-font-weight: 400;
+
+    span {
+        font-weight: 400;
     }
 
 }
-h2{
+
+h2 {
     font-weight: 600;
     font-size: 40px;
-    line-height:140%;
-    span{
+    line-height: 140%;
+
+    span {
         font-weight: 400;
         font-size: 53px;
-    line-height:106%;
+        line-height: 106%;
     }
-   
+
 }
-h3{
+
+h3 {
     font-weight: 600;
-font-size: 24px;
-line-height: 167% ;
+    font-size: 24px;
+    line-height: 167%;
 }
-.caveat-font{
+
+.caveat-font {
     font-family: 'Caveat', cursive;
 }
-.Satisfy-font{
+
+.Satisfy-font {
     font-family: 'Satisfy', cursive;
 }
 
-.text{
-    &-yellow{
-        color:$yellow !important
+.text {
+    &-yellow {
+        color: $yellow !important
     }
-    &-primary{
-        color:$primary !important
+
+    &-primary {
+        color: $primary !important
     }
-    &-new-blue{
-        color:#0948B4
+
+    &-new-blue {
+        color: #0948B4
     }
-    &-medium-gray{
-        color:#576575
+
+    &-medium-gray {
+        color: #576575
     }
-    &-big{
+
+    &-big {
         font-size: 24px;
-        line-height:167% ;
+        line-height: 167%;
     }
-    &-small{
+
+    &-small {
         font-size: 15px;
-        line-height: 153% ;
+        line-height: 153%;
     }
-    &-medium{
+
+    &-medium {
         font-weight: 500;
     }
 }
-.block-head{
+
+.block-head {
     font-weight: 600;
     font-size: 24px;
-    line-height:167% ;
+    line-height: 167%;
     margin-bottom: 28px;
-    img{
+
+    img {
         margin-right: 9px;
     }
 }
+
 /*** background styles ***/
-.bg{
-    &-primary{
+.bg {
+    &-primary {
         background-color: $primary !important;
     }
 }
 
 /**** buttons style ****/
-.btn{
-    &-primary{
+.btn {
+    &-primary {
         background: #2B7DDD;
         border-color: #2B7DDD;
-        color:#fff !important;
+        color: #fff !important;
     }
-    &-warning{
+
+    &-warning {
         background: $yellow;
         font-weight: 600;
-        color:$black
+        color: $black
     }
-    &-white{
+
+    &-white {
         background: #FFFFFF;
-        color:#000000;
-        &:hover{
+        color: #000000;
+
+        &:hover {
             background: $yellow;
         }
     }
+
+    &-light-blue {
+        background: rgba(9, 72, 180, 0.1);
+        padding: 14px 28px;
+        font-size: 19px;
+        line-height: 30px;
+        color: #0948B4;
+        border-radius: 40px;
+        transition: all 0.3s ease-in-out;
+        i{
+            font-size: 24px;
+            margin-right: 6px;
+            line-height: 0;
+            vertical-align: middle;
+        }
+        &:hover{
+            background: $primary;
+            color:#fff
+        }
+    }
 }
+
 /*** slick slider ****/
 .slick-slide img {
     display: initial;
