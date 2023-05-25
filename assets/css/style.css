@@ -53,6 +53,14 @@ h2 .Satisfy-font::after {
   background-repeat: no-repeat;
   background-position: left 0 center;
 }
+h1 .light-text,
+h2 .light-text {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  color: #EEBC00;
+  font-family: "Satisfy", cursive;
+}
 
 h1 {
   font-weight: 600;
@@ -168,6 +176,39 @@ h3 {
 /*** slick slider ****/
 .slick-slide img {
   display: initial;
+}
+
+/*** course-snap-block style *****/
+.course-snap-block {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #576575;
+}
+.course-snap-block .snap-img {
+  width: 60px;
+  height: 60px;
+  background: #D9D9D9;
+  border-radius: 12px;
+  margin: 0 auto 8px auto;
+}
+.course-snap-block .snap-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.course-snap-block strong {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+  display: block;
+  color: initial;
+}
+.course-snap-block strong small {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 10px;
 }
 
 /*** pages reusable components styles ***/
@@ -572,7 +613,7 @@ form .form-control:focus {
   border-color: #044ab4;
 }
 form .btn {
-  padding: 20px;
+  padding: 17px 20px;
   font-size: 16px;
   font-weight: 500;
 }
@@ -640,6 +681,17 @@ form .btn {
 }
 .blog-card .box-footer strong {
   display: block;
+}
+
+/**** field-label style ***/
+.field-label {
+  display: inline-block;
+  background: rgba(9, 72, 180, 0.05);
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 22px;
+  line-height: 40px;
+  color: #0948B4;
 }
 
 /*** header style ****/
@@ -1195,9 +1247,107 @@ form .btn {
   /* White */
   color: #FFFFFF;
 }
+.TP-hero.course-hero {
+  padding-top: 91px;
+  padding-bottom: 90px;
+}
+.TP-hero .course-snap-block {
+  color: #fff;
+}
+.TP-hero .course-snap-block .snap-img {
+  background: #fff;
+}
+.TP-hero .course-snap-block strong {
+  color: #fff;
+}
 .TP-contact-info {
   padding-top: 86px;
   padding-bottom: 68px;
+}
+.TP-value {
+  padding-top: 70px;
+  padding-bottom: 76px;
+}
+.TP-value h2 {
+  max-width: 926px;
+  margin-bottom: 56px;
+}
+.TP-value h3 {
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 45px;
+  margin-bottom: 35px;
+}
+.TP-value .course-snap-block {
+  display: flex;
+  margin-bottom: 56px;
+}
+.TP-value .course-snap-block:last-child {
+  margin-bottom: 0;
+}
+.TP-value .course-snap-block .snap-img {
+  margin: 0;
+}
+.TP-value .course-snap-block div:not(.snap-img) {
+  width: calc(100% - 60px);
+  padding-left: 16px;
+}
+.TP-value .img-box {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+}
+.TP-hire-facts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(180deg, rgba(43, 125, 221, 0) 4.69%, rgba(43, 125, 221, 0.31) 119.57%);
+}
+.TP-hire-form {
+  padding-top: 100px;
+}
+.TP-hire-form h2 {
+  margin-bottom: 32px;
+}
+.TP-hire-form form .form-group {
+  margin-bottom: 32px;
+}
+.TP-hire-form form .form-label {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+.TP-hire-form form .form-control {
+  height: 62px;
+  font-weight: 400;
+  font-size: 19px;
+  color: #000000;
+}
+.TP-hire-form form .btn {
+  width: 100%;
+  max-width: 406px;
+  border-radius: 10px;
+}
+.TP-learn-fields {
+  padding-top: 100px;
+}
+.TP-learn-fields .container {
+  max-width: 1125px;
+}
+.TP-learn-fields h2 {
+  margin-bottom: 40px;
+}
+.TP-learn-fields .field-label {
+  margin: 10px;
+}
+.TP-partners.inner {
+  padding-top: 120px;
+}
+.TP-testimonials.inner {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+.TP-testimonials.inner .container {
+  max-width: 1025px;
 }
 
 /*** footer style ****/
