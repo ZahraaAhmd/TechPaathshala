@@ -46,13 +46,14 @@ h2 {
             background-position: left 0 center;
         }
     }
-    .light-text{
+
+    .light-text {
         position: relative;
         display: inline-block;
         line-height: 1;
         //padding: 0 5px;
-        color:$yellow;
-        font-family: 'Satisfy', cursive;  
+        color: $yellow;
+        font-family: 'Satisfy', cursive;
     }
 }
 
@@ -152,6 +153,18 @@ h3 {
         color: #fff !important;
     }
 
+    &-outline-primary {
+        
+        border: 1px solid #0948B4;
+        border-radius: 10px;
+        color: #0948B4;
+
+        &:hover {
+            background: #0948B4;
+            color: #fff
+        }
+    }
+
     &-warning {
         background: $yellow;
         font-weight: 600;
@@ -201,6 +214,7 @@ h3 {
     font-size: 20px;
     line-height: 25px;
     color: #576575;
+
     .snap-img {
         width: 60px;
         height: 60px;
