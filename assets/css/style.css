@@ -1118,6 +1118,84 @@ form .btn {
   border-top: 1px solid #EEBC00;
   border-bottom: 1px solid #EEBC00;
 }
+.TP-life {
+  padding-top: 190px;
+}
+.TP-life h2 {
+  margin-bottom: 90px;
+}
+.TP-life .life-block {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  padding: 24px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  margin-top: 12px;
+}
+.TP-life .life-block .block-img {
+  margin-bottom: 21px;
+  width: 100%;
+  height: auto;
+}
+.TP-life .life-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: calc(50% - 22px);
+  width: 22px;
+  height: 22px;
+  background: #044AB4;
+  border-radius: 50%;
+}
+.TP-life .life-slider {
+  padding-bottom: 130px;
+}
+.TP-life .life-slider .slick-arrow {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #2E2E2E;
+  color: #2E2E2E;
+  font-size: 35px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 30px;
+  position: absolute;
+}
+.TP-life .life-slider .slick-arrow:hover {
+  color: #fff;
+  background: #044ab4;
+  border-color: #044ab4;
+}
+.TP-life .life-slider .slick-arrow.right-arrow {
+  left: calc(50% + 40px);
+}
+.TP-life .life-slider .slick-arrow.left-arrow {
+  left: calc(50% - 100px);
+}
+.TP-life .life-slider .slick-slide {
+  padding: 15px;
+}
+.TP-life .life-slider .slick-slide.slick-active .life-block {
+  transform: rotate(4.85deg);
+}
+.TP-life .life-slider .slick-slide.slick-active + .slick-active {
+  padding-top: 60px;
+}
+.TP-life .life-slider .slick-slide.slick-active + .slick-active .life-block {
+  transform: rotate(0deg);
+}
+.TP-life .life-slider .slick-slide.slick-active + .slick-active + .slick-active {
+  padding-top: 0;
+}
+.TP-life .life-slider .slick-slide.slick-active + .slick-active + .slick-active .life-block {
+  transform: rotate(-4.49deg);
+}
 .TP-faq {
   padding-top: 150px;
   padding-bottom: 80px;

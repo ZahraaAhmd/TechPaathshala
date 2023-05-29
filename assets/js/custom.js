@@ -123,6 +123,24 @@ $('.mentors-slider').slick({
         }
     ]
 });
+$('.life-slider').slick({
+    dots: false,
+    arrows: true,
+    prevArrow:"<button type='button' class='btn btn-outline-secondary left-arrow'><i class='bi bi-arrow-left-short'></i></button>",
+    nextArrow:"<button type='button' class='btn btn-outline-secondary right-arrow'><i class='bi bi-arrow-right-short'></i></button>",
+
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint:992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        }
+    ]
+});
 $(document).ready(function() {
     /*
      * make slick slider container padding left as other content
