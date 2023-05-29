@@ -18,7 +18,9 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 }
-
+img{
+    max-width: 100%;
+}
 /*** texts style ****/
 a {
     transition: all 0.3s ease-in-out;

@@ -37,14 +37,14 @@ $('.learn-slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 2.2,
                 slidesToScroll: 1
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1.1,
                 slidesToScroll: 1
@@ -61,16 +61,16 @@ $('.program-slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1400,
             settings: {
-                slidesToShow: 1.2,
+                centerPadding: '10%',
                 slidesToScroll: 1
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 1.1,
+                centerPadding: '5%',
                 slidesToScroll: 1
             }
         }
@@ -87,21 +87,15 @@ $('.event-gallary-slider').slick({
             slidesToShow: 1.5,
             slidesToScroll: 1
         }
-    },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1.2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1.1,
-                slidesToScroll: 1
-            }
+    },{
+        breakpoint: 768,
+        settings: {
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3,
+            slidesToScroll: 1
         }
+    }
     ]
 });
 $('.mentors-slider').slick({
@@ -113,16 +107,17 @@ $('.mentors-slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1400,
             settings: {
-                slidesToShow: 1.2,
+                centerPadding: '10%',
                 slidesToScroll: 1
             }
         },
+        
         {
-            breakpoint: 600,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 1.1,
+                centerPadding: '40px',
                 slidesToScroll: 1
             }
         }
