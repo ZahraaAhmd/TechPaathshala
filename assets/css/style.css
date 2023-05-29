@@ -703,6 +703,21 @@ form .btn {
   color: #0948B4;
 }
 
+/**** form switch style ****/
+.form-switch .form-check-input {
+  width: 78px;
+  height: 38px;
+  margin-top: 0;
+  background: rgba(4, 74, 180, 0.1) url("../images/curriculum/switch.svg") no-repeat;
+  background-position: left 4px center;
+  border-radius: 22.6658px;
+  border: 0;
+}
+.form-switch .form-check-input:checked {
+  background: #044ab4 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") no-repeat;
+  background-position: right center;
+}
+
 /*** header style ****/
 .navbar {
   padding: 14.5px 0;
@@ -1294,19 +1309,6 @@ form .btn {
   font-size: 15px;
   line-height: 23px;
 }
-.TP-hero#program-hero .course-details .form-check-input {
-  width: 78px;
-  height: 38px;
-  margin-top: 0;
-  background: rgba(4, 74, 180, 0.1) url("../images/curriculum/switch.svg") no-repeat;
-  background-position: left 4px center;
-  border-radius: 22.6658px;
-  border: 0;
-}
-.TP-hero#program-hero .course-details .form-check-input:checked {
-  background: #044ab4 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") no-repeat;
-  background-position: right center;
-}
 .TP-hero#program-hero .course-details h2 {
   font-weight: 700;
   font-size: 31px;
@@ -1662,6 +1664,73 @@ form .btn {
 }
 .TP-curriculum-details .accordion .accordion-item .accordion-body .accordion-item .accordion-body {
   padding-top: 30px;
+}
+
+/*** programs style ****/
+.TP-all-programs {
+  padding-top: 97px;
+}
+.TP-all-programs .program-box {
+  margin-top: 50px;
+}
+.TP-all-programs .program-box .small-box {
+  max-width: 479.46px;
+}
+.TP-all-programs .program-box .small-box li i {
+  margin-right: 13px;
+  font-size: 25px;
+}
+.TP-all-programs .program-box .program-date {
+  margin-top: 75px;
+  padding: 8px 32px;
+  background: #F5F5F5;
+  border: 1px solid #DEDEDE;
+  border-radius: 36px;
+}
+.TP-all-programs .program-box .program-date ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.TP-all-programs .program-box .program-date ul li {
+  font-size: 19px;
+  line-height: 158%;
+}
+.TP-all-programs .program-box .program-date ul li:not(:first-child) {
+  border-left: 1px solid #000000;
+  padding-left: 26px;
+  padding-right: 21px;
+}
+.TP-all-programs .program-box .program-date ul li:first-child {
+  padding-right: 21px;
+}
+.TP-all-programs .program-box .program-date ul li:last-child {
+  padding-right: 0;
+}
+.TP-all-programs .program-box .program-date ul li span {
+  display: inline-block;
+}
+.TP-all-programs .program-box .program-date ul li span:first-child {
+  margin-right: 24px;
+}
+.TP-all-programs .program-box .program-date ul li img {
+  width: 15px;
+  margin-right: 10px;
+}
+.TP-all-programs .program-box .program-price-details img {
+  width: 387px;
+  height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+.TP-all-programs .program-box .program-price-details h3 span {
+  font-size: 19px;
+  line-height: 30px;
+  color: #7B7B7B;
+  text-decoration: line-through;
 }
 
 /*** footer style ****/

@@ -1,0 +1,86 @@
+/*** programs style ****/
+.TP {
+    &-all-programs {
+        padding-top: 97px;
+
+        .program-box {
+            margin-top: 50px;
+
+            .small-box {
+                max-width: 479.46px;
+                li{
+                    i {
+                        margin-right: 13px;
+                        font-size: 25px;
+                    }
+                }
+            }
+
+            .program-date {
+                margin-top: 75px;
+                padding: 8px 32px;
+                background: #F5F5F5;
+                border: 1px solid #DEDEDE;
+                border-radius: 36px;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    li {
+                        &:not(:first-child) {
+                            border-left: 1px solid #000000;
+                            padding-left: 26px;
+                            padding-right: 21px;
+                        }
+
+                        &:first-child {
+                            padding-right: 21px;
+                        }
+
+                        &:last-child {
+                            padding-right: 0;
+                        }
+
+                        span {
+                            display: inline-block;
+
+                            &:first-child {
+                                margin-right: 24px;
+                            }
+                        }
+
+                        font-size: 19px;
+                        line-height:158%;
+
+                        img {
+                            width: 15px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            .program-price-details {
+                img {
+                    width: 387px;
+                    height: 175px;
+                    object-fit: cover;
+                    border-radius: 20px;
+                    margin-bottom: 32px;
+                }
+
+                h3 {
+                    span {
+                        font-size: 19px;
+                        line-height: 30px;
+                        color: #7B7B7B;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+}
