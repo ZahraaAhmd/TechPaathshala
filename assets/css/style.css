@@ -1135,6 +1135,8 @@ form .btn {
 }
 .TP-life .life-block .block-img {
   margin-bottom: 21px;
+}
+.TP-life .life-block .block-img img {
   width: 100%;
   height: auto;
 }
